@@ -1,0 +1,45 @@
+server.port: 8081
+spring:
+  profiles: 
+     active: test1
+---  
+server.port: 8082  
+Dog:
+ age: 12
+ name: zhangt
+ friend:
+  age: 12
+  name2: "狗子\n"
+  name3: ${Dog.name1:1}
+  name: 
+ foods:
+ - goushi
+ - gouniao
+spring.profiles: dev
+
+---
+ #debug: true
+ server:
+  port: 8083
+  servletPath: /*
+  #context-path: /zhang
+ spring:
+  profiles: test1
+ logging:
+  level:
+   com:
+    zt: trace
+  file: spring.log
+  path: D:/spring.log
+  #pattern.console: %d{yyyy-MM-dd HH:mm:ss} - %msg%n
+ eureka.client.serviceUrl.defaultZone: 100.1.1.229:8099
+ 
+---
+ 
+ server:
+  port: 8084
+ spring:
+  profiles: conf
+  
+
+

@@ -1,0 +1,15 @@
+server:
+# port: 8081
+Dog:
+ age: 12
+ name: sgi@126.com
+ friend:
+  name: 狗子
+  age: 12
+  name2: "狗子\n"
+  name3: '狗子\n'
+ foods:
+ - goushi
+ - gouniao
+
+

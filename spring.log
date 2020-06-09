@@ -1,0 +1,1175 @@
+2020-06-05 16:58:16.669  INFO 1152 --- [main] com.zt.service.HSService1                : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 1152 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-05 16:58:16.672 DEBUG 1152 --- [main] com.zt.service.HSService1                : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-05 16:58:16.672  INFO 1152 --- [main] com.zt.service.HSService1                : The following profiles are active: test1
+2020-06-05 16:58:16.697  INFO 1152 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6e0f5f7f: startup date [Fri Jun 05 16:58:16 CST 2020]; root of context hierarchy
+2020-06-05 16:58:17.749  INFO 1152 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6e0f5f7f: startup date [Fri Jun 05 16:58:16 CST 2020]; root of context hierarchy
+2020-06-05 16:58:17.800  INFO 1152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-05 16:58:17.802  INFO 1152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-05 16:58:17.803  INFO 1152 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-05 16:58:17.832  INFO 1152 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-05 16:58:17.832  INFO 1152 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-05 16:58:17.868  INFO 1152 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-05 16:58:18.004  INFO 1152 --- [main] com.zt.service.HSService1                : Started HSService1 in 1.65 seconds (JVM running for 2.23)
+2020-06-05 16:58:18.049 TRACE 1152 --- [main] com.zt.service.HSService1                : 这是trace
+2020-06-05 16:58:18.049  INFO 1152 --- [main] com.zt.service.HSService1                : 这是info
+2020-06-05 16:58:18.049 DEBUG 1152 --- [main] com.zt.service.HSService1                : 这是debug
+2020-06-05 16:58:18.049  WARN 1152 --- [main] com.zt.service.HSService1                : 这是warn
+2020-06-05 16:58:18.049 ERROR 1152 --- [main] com.zt.service.HSService1                : 这是error
+2020-06-05 16:58:18.055  INFO 1152 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6e0f5f7f: startup date [Fri Jun 05 16:58:16 CST 2020]; root of context hierarchy
+2020-06-05 16:58:40.173  INFO 14476 --- [main] com.zt.service.HSService1                : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 14476 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-05 16:58:40.176 DEBUG 14476 --- [main] com.zt.service.HSService1                : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-05 16:58:40.176  INFO 14476 --- [main] com.zt.service.HSService1                : The following profiles are active: test1
+2020-06-05 16:58:40.200  INFO 14476 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6e0f5f7f: startup date [Fri Jun 05 16:58:40 CST 2020]; root of context hierarchy
+2020-06-05 16:58:41.329  INFO 14476 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6e0f5f7f: startup date [Fri Jun 05 16:58:40 CST 2020]; root of context hierarchy
+2020-06-05 16:58:41.393  INFO 14476 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-05 16:58:41.397  INFO 14476 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-05 16:58:41.398  INFO 14476 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-05 16:58:41.426  INFO 14476 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-05 16:58:41.426  INFO 14476 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-05 16:58:41.462  INFO 14476 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-05 16:58:41.599  INFO 14476 --- [main] com.zt.service.HSService1                : Started HSService1 in 1.701 seconds (JVM running for 2.307)
+2020-06-05 16:58:41.640 TRACE 14476 --- [main] com.zt.service.HSService1                : 这是trace
+2020-06-05 16:58:41.640  INFO 14476 --- [main] com.zt.service.HSService1                : 这是info
+2020-06-05 16:58:41.640 DEBUG 14476 --- [main] com.zt.service.HSService1                : 这是debug
+2020-06-05 16:58:41.641  WARN 14476 --- [main] com.zt.service.HSService1                : 这是warn
+2020-06-05 16:58:41.641 ERROR 14476 --- [main] com.zt.service.HSService1                : 这是error
+2020-06-05 16:58:41.649  INFO 14476 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6e0f5f7f: startup date [Fri Jun 05 16:58:40 CST 2020]; root of context hierarchy
+2020-06-05 17:08:23.650  INFO 8888 --- [main] com.zt.service.HSService1                : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 8888 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-05 17:08:23.658 DEBUG 8888 --- [main] com.zt.service.HSService1                : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-05 17:08:23.659  INFO 8888 --- [main] com.zt.service.HSService1                : The following profiles are active: test1
+2020-06-05 17:08:23.736  INFO 8888 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6e0f5f7f: startup date [Fri Jun 05 17:08:23 CST 2020]; root of context hierarchy
+2020-06-05 17:08:26.875  INFO 8888 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6e0f5f7f: startup date [Fri Jun 05 17:08:23 CST 2020]; root of context hierarchy
+2020-06-05 17:08:27.021  INFO 8888 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-05 17:08:27.027  INFO 8888 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-05 17:08:27.028  INFO 8888 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-05 17:08:27.148  INFO 8888 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-05 17:08:27.150  INFO 8888 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-05 17:08:27.294  INFO 8888 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-05 17:08:27.666  INFO 8888 --- [main] com.zt.service.HSService1                : Started HSService1 in 4.686 seconds (JVM running for 6.449)
+2020-06-05 17:08:27.778 TRACE 8888 --- [main] com.zt.service.HSService1                : 这是trace
+2020-06-05 17:08:27.779  INFO 8888 --- [main] com.zt.service.HSService1                : 这是info
+2020-06-05 17:08:27.781 DEBUG 8888 --- [main] com.zt.service.HSService1                : 这是debug
+2020-06-05 17:08:27.781  WARN 8888 --- [main] com.zt.service.HSService1                : 这是warn
+2020-06-05 17:08:27.781 ERROR 8888 --- [main] com.zt.service.HSService1                : 这是error
+2020-06-05 17:08:27.800  INFO 8888 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6e0f5f7f: startup date [Fri Jun 05 17:08:23 CST 2020]; root of context hierarchy
+2020-06-06 07:15:05.290  INFO 13020 --- [main] c.z.s.HSService1                         : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 13020 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 07:15:05.292 DEBUG 13020 --- [main] c.z.s.HSService1                         : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 07:15:05.293  INFO 13020 --- [main] c.z.s.HSService1                         : The following profiles are active: test1
+2020-06-06 07:15:05.320  INFO 13020 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7fc4780b: startup date [Sat Jun 06 07:15:05 CST 2020]; root of context hierarchy
+2020-06-06 07:15:06.777  INFO 13020 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7fc4780b: startup date [Sat Jun 06 07:15:05 CST 2020]; root of context hierarchy
+2020-06-06 07:15:06.831  INFO 13020 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 07:15:06.834  INFO 13020 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 07:15:06.835  INFO 13020 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 07:15:06.869  INFO 13020 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:15:06.869  INFO 13020 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:15:06.893  INFO 13020 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:15:07.053  INFO 13020 --- [main] c.z.s.HSService1                         : Started HSService1 in 2.107 seconds (JVM running for 4.443)
+2020-06-06 07:15:07.101 TRACE 13020 --- [main] c.z.s.HSService1                         : 这是trace
+2020-06-06 07:15:07.102  INFO 13020 --- [main] c.z.s.HSService1                         : 这是info
+2020-06-06 07:15:07.102 DEBUG 13020 --- [main] c.z.s.HSService1                         : 这是debug
+2020-06-06 07:15:07.102  WARN 13020 --- [main] c.z.s.HSService1                         : 这是warn
+2020-06-06 07:15:07.102 ERROR 13020 --- [main] c.z.s.HSService1                         : 这是error
+2020-06-06 07:15:07.107  INFO 13020 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7fc4780b: startup date [Sat Jun 06 07:15:05 CST 2020]; root of context hierarchy
+2020-06-06 07:45:03.039  INFO 3280 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 3280 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 07:45:03.042 DEBUG 3280 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 07:45:03.042  INFO 3280 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 07:45:03.136  INFO 3280 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 07:45:03 CST 2020]; root of context hierarchy
+2020-06-06 07:45:05.754  INFO 3280 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 07:45:05.763  INFO 3280 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 07:45:05.764  INFO 3280 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 07:45:05.890  INFO 3280 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/zhang]                   : Initializing Spring embedded WebApplicationContext
+2020-06-06 07:45:05.890  INFO 3280 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2759 ms
+2020-06-06 07:45:06.073  INFO 3280 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 07:45:06.075  INFO 3280 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 07:45:06.076  INFO 3280 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 07:45:06.076  INFO 3280 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 07:45:06.076  INFO 3280 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 07:45:06.361  INFO 3280 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 07:45:03 CST 2020]; root of context hierarchy
+2020-06-06 07:45:06.414  INFO 3280 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 07:45:06.418  INFO 3280 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 07:45:06.419  INFO 3280 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 07:45:06.442  INFO 3280 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:45:06.442  INFO 3280 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:45:06.484  INFO 3280 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:45:06.629  INFO 3280 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 07:45:06.700  INFO 3280 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 07:45:06.705  INFO 3280 --- [main] c.z.HSApplication                        : Started HSApplication in 4.027 seconds (JVM running for 4.572)
+2020-06-06 07:48:12.170  INFO 3280 --- [http-nio-8083-exec-2] o.a.c.c.C.[.[.[/zhang]                   : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 07:48:12.170  INFO 3280 --- [http-nio-8083-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 07:48:12.220  INFO 3280 --- [http-nio-8083-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
+2020-06-06 07:51:23.065  INFO 17024 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 17024 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 07:51:23.069 DEBUG 17024 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 07:51:23.070  INFO 17024 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 07:51:23.103  INFO 17024 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 07:51:23 CST 2020]; root of context hierarchy
+2020-06-06 07:51:25.054  INFO 17024 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 07:51:25.062  INFO 17024 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 07:51:25.062  INFO 17024 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 07:51:25.171  INFO 17024 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/zhang]                   : Initializing Spring embedded WebApplicationContext
+2020-06-06 07:51:25.172  INFO 17024 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2072 ms
+2020-06-06 07:51:25.330  INFO 17024 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 07:51:25.333  INFO 17024 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 07:51:25.333  INFO 17024 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 07:51:25.333  INFO 17024 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 07:51:25.333  INFO 17024 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 07:51:25.575  INFO 17024 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 07:51:23 CST 2020]; root of context hierarchy
+2020-06-06 07:51:25.619  INFO 17024 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 07:51:25.621  INFO 17024 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 07:51:25.622  INFO 17024 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 07:51:25.640  INFO 17024 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:51:25.640  INFO 17024 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:51:25.664  INFO 17024 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:51:25.750  INFO 17024 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 07:51:25.800  INFO 17024 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 07:51:25.804  INFO 17024 --- [main] c.z.HSApplication                        : Started HSApplication in 3.023 seconds (JVM running for 3.572)
+2020-06-06 07:51:58.113  INFO 15312 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 15312 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 07:51:58.117 DEBUG 15312 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 07:51:58.117  INFO 15312 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 07:51:58.152  INFO 15312 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6404f418: startup date [Sat Jun 06 07:51:58 CST 2020]; root of context hierarchy
+2020-06-06 07:52:00.115  INFO 15312 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 07:52:00.122  INFO 15312 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 07:52:00.123  INFO 15312 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 07:52:00.238  INFO 15312 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 07:52:00.238  INFO 15312 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2088 ms
+2020-06-06 07:52:00.386  INFO 15312 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 07:52:00.388  INFO 15312 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 07:52:00.388  INFO 15312 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 07:52:00.388  INFO 15312 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 07:52:00.388  INFO 15312 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 07:52:00.623  INFO 15312 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6404f418: startup date [Sat Jun 06 07:51:58 CST 2020]; root of context hierarchy
+2020-06-06 07:52:00.673  INFO 15312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 07:52:00.675  INFO 15312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 07:52:00.675  INFO 15312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 07:52:00.694  INFO 15312 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:52:00.694  INFO 15312 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:52:00.716  INFO 15312 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:52:00.811  INFO 15312 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 07:52:00.857  INFO 15312 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 07:52:00.860  INFO 15312 --- [main] c.z.HSApplication                        : Started HSApplication in 3.046 seconds (JVM running for 3.558)
+2020-06-06 07:52:05.129  INFO 15312 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 07:52:05.130  INFO 15312 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 07:52:05.156  INFO 15312 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2020-06-06 07:52:26.240  INFO 1932 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 1932 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 07:52:26.244 DEBUG 1932 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 07:52:26.244  INFO 1932 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 07:52:26.277  INFO 1932 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 07:52:26 CST 2020]; root of context hierarchy
+2020-06-06 07:52:27.675  INFO 1932 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 07:52:27.683  INFO 1932 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 07:52:27.684  INFO 1932 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 07:52:27.789  INFO 1932 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/zhang]                   : Initializing Spring embedded WebApplicationContext
+2020-06-06 07:52:27.789  INFO 1932 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1514 ms
+2020-06-06 07:52:27.965  INFO 1932 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 07:52:27.967  INFO 1932 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 07:52:27.967  INFO 1932 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 07:52:27.967  INFO 1932 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 07:52:27.968  INFO 1932 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 07:52:28.241  INFO 1932 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 07:52:26 CST 2020]; root of context hierarchy
+2020-06-06 07:52:28.396  INFO 1932 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 07:52:28.405  INFO 1932 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 07:52:28.406  INFO 1932 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 07:52:28.469  INFO 1932 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:52:28.470  INFO 1932 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:52:28.544  INFO 1932 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:52:28.810  INFO 1932 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 07:52:28.928  INFO 1932 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 07:52:28.937  INFO 1932 --- [main] c.z.HSApplication                        : Started HSApplication in 3.001 seconds (JVM running for 3.569)
+2020-06-06 07:58:50.449  INFO 1888 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 1888 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 07:58:50.452 DEBUG 1888 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 07:58:50.453  INFO 1888 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 07:58:50.488  INFO 1888 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 07:58:50 CST 2020]; root of context hierarchy
+2020-06-06 07:58:51.878  INFO 1888 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 07:58:51.885  INFO 1888 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 07:58:51.886  INFO 1888 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 07:58:52.004  INFO 1888 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/zhang]                   : Initializing Spring embedded WebApplicationContext
+2020-06-06 07:58:52.005  INFO 1888 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1518 ms
+2020-06-06 07:58:52.176  INFO 1888 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 07:58:52.178  INFO 1888 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 07:58:52.179  INFO 1888 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 07:58:52.179  INFO 1888 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 07:58:52.179  INFO 1888 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 07:58:52.447  INFO 1888 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 07:58:50 CST 2020]; root of context hierarchy
+2020-06-06 07:58:52.503  INFO 1888 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 07:58:52.506  INFO 1888 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 07:58:52.507  INFO 1888 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 07:58:52.530  INFO 1888 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:58:52.530  INFO 1888 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:58:52.564  INFO 1888 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:58:52.699  INFO 1888 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 07:58:52.849  INFO 1888 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 07:58:52.855  INFO 1888 --- [main] c.z.HSApplication                        : Started HSApplication in 2.698 seconds (JVM running for 3.263)
+2020-06-06 07:59:44.142  INFO 16416 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 16416 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 07:59:44.147 DEBUG 16416 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 07:59:44.147  INFO 16416 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 07:59:44.209  INFO 16416 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6404f418: startup date [Sat Jun 06 07:59:44 CST 2020]; root of context hierarchy
+2020-06-06 07:59:45.991  INFO 16416 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 07:59:45.998  INFO 16416 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 07:59:45.999  INFO 16416 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 07:59:46.105  INFO 16416 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 07:59:46.106  INFO 16416 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1899 ms
+2020-06-06 07:59:46.256  INFO 16416 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 07:59:46.259  INFO 16416 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 07:59:46.259  INFO 16416 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 07:59:46.259  INFO 16416 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 07:59:46.259  INFO 16416 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 07:59:46.524  INFO 16416 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6404f418: startup date [Sat Jun 06 07:59:44 CST 2020]; root of context hierarchy
+2020-06-06 07:59:46.578  INFO 16416 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 07:59:46.581  INFO 16416 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 07:59:46.581  INFO 16416 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 07:59:46.600  INFO 16416 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:59:46.600  INFO 16416 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:59:46.622  INFO 16416 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 07:59:46.732  INFO 16416 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 07:59:46.785  INFO 16416 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 07:59:46.789  INFO 16416 --- [main] c.z.HSApplication                        : Started HSApplication in 3.408 seconds (JVM running for 4.078)
+2020-06-06 07:59:46.878  INFO 16416 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 07:59:46.879  INFO 16416 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 07:59:46.911  INFO 16416 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2020-06-06 08:00:41.261  INFO 14692 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 14692 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:00:41.266 DEBUG 14692 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:00:41.267  INFO 14692 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 08:00:41.313  INFO 14692 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6404f418: startup date [Sat Jun 06 08:00:41 CST 2020]; root of context hierarchy
+2020-06-06 08:00:43.003  INFO 14692 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 08:00:43.012  INFO 14692 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 08:00:43.013  INFO 14692 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 08:00:43.156  INFO 14692 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 08:00:43.156  INFO 14692 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1846 ms
+2020-06-06 08:00:43.531  INFO 14692 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 08:00:43.549  INFO 14692 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 08:00:43.550  INFO 14692 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 08:00:43.550  INFO 14692 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 08:00:43.551  INFO 14692 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 08:00:44.148  INFO 14692 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6404f418: startup date [Sat Jun 06 08:00:41 CST 2020]; root of context hierarchy
+2020-06-06 08:00:44.219  INFO 14692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:00:44.223  INFO 14692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:00:44.225  INFO 14692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:00:44.252  INFO 14692 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:00:44.253  INFO 14692 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:00:44.275  INFO 14692 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:00:44.296  INFO 14692 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 08:00:44.412  INFO 14692 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 08:00:44.480  INFO 14692 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 08:00:44.485  INFO 14692 --- [main] c.z.HSApplication                        : Started HSApplication in 3.551 seconds (JVM running for 4.093)
+2020-06-06 08:00:47.063  INFO 14692 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 08:00:47.064  INFO 14692 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 08:00:47.097  INFO 14692 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2020-06-06 08:02:52.981  INFO 18060 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 18060 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:02:52.987 DEBUG 18060 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:02:52.988  INFO 18060 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 08:02:53.192  INFO 18060 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 08:02:53 CST 2020]; root of context hierarchy
+2020-06-06 08:03:02.360  INFO 2196 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 2196 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:03:02.368 DEBUG 2196 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:03:02.369  INFO 2196 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 08:03:02.512  INFO 2196 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 08:03:02 CST 2020]; root of context hierarchy
+2020-06-06 08:03:05.244  INFO 2196 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 08:03:05.266  INFO 2196 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 08:03:05.268  INFO 2196 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 08:03:05.491  INFO 2196 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 08:03:05.492  INFO 2196 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2987 ms
+2020-06-06 08:03:05.715  INFO 2196 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 08:03:05.721  INFO 2196 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 08:03:05.722  INFO 2196 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 08:03:05.722  INFO 2196 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 08:03:05.722  INFO 2196 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 08:03:06.170  INFO 2196 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 08:03:02 CST 2020]; root of context hierarchy
+2020-06-06 08:03:06.277  INFO 2196 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:03:06.283  INFO 2196 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:03:06.284  INFO 2196 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:03:06.311  INFO 2196 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:03:06.312  INFO 2196 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:03:06.351  INFO 2196 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:03:06.375  INFO 2196 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 08:03:06.519  INFO 2196 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 08:03:06.599  INFO 2196 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 08:03:06.603  INFO 2196 --- [main] c.z.HSApplication                        : Started HSApplication in 5.097 seconds (JVM running for 6.579)
+2020-06-06 08:15:15.984  INFO 15584 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 15584 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:15:15.987 DEBUG 15584 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:15:15.987  INFO 15584 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 08:15:16.032  INFO 15584 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 08:15:16 CST 2020]; root of context hierarchy
+2020-06-06 08:15:17.717  INFO 15584 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 08:15:17.726  INFO 15584 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 08:15:17.728  INFO 15584 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 08:15:17.838  INFO 15584 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 08:15:17.838  INFO 15584 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1809 ms
+2020-06-06 08:15:17.998  INFO 15584 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 08:15:18.001  INFO 15584 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 08:15:18.001  INFO 15584 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 08:15:18.001  INFO 15584 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 08:15:18.001  INFO 15584 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 08:15:18.289  INFO 15584 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 08:15:16 CST 2020]; root of context hierarchy
+2020-06-06 08:15:18.441  INFO 15584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:15:18.448  INFO 15584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:15:18.450  INFO 15584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:15:18.504  INFO 15584 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:15:18.505  INFO 15584 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:15:18.589  INFO 15584 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:15:18.652  INFO 15584 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 08:15:18.872  INFO 15584 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 08:15:18.981  INFO 15584 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 08:15:18.994  INFO 15584 --- [main] c.z.HSApplication                        : Started HSApplication in 3.355 seconds (JVM running for 3.97)
+2020-06-06 08:23:19.833  INFO 1928 --- [main] c.z.s.HSService1                         : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 1928 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:23:19.835 DEBUG 1928 --- [main] c.z.s.HSService1                         : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:23:19.836  INFO 1928 --- [main] c.z.s.HSService1                         : The following profiles are active: test1
+2020-06-06 08:23:19.862  INFO 1928 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Sat Jun 06 08:23:19 CST 2020]; root of context hierarchy
+2020-06-06 08:23:21.004  INFO 1928 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Sat Jun 06 08:23:19 CST 2020]; root of context hierarchy
+2020-06-06 08:23:21.053  INFO 1928 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:23:21.056  INFO 1928 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:23:21.056  INFO 1928 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:23:21.086  INFO 1928 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:23:21.086  INFO 1928 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:23:21.120  INFO 1928 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:23:21.139  INFO 1928 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2020-06-06 08:23:21.240  INFO 1928 --- [main] c.z.s.HSService1                         : Started HSService1 in 1.726 seconds (JVM running for 2.622)
+2020-06-06 08:23:21.282  INFO 1928 --- [main] c.z.s.HSService1                         : Dog [name=null, age=null, friend=null, foods=null]
+2020-06-06 08:23:21.283 TRACE 1928 --- [main] c.z.s.HSService1                         : 这是trace
+2020-06-06 08:23:21.283  INFO 1928 --- [main] c.z.s.HSService1                         : 这是info
+2020-06-06 08:23:21.284 DEBUG 1928 --- [main] c.z.s.HSService1                         : 这是debug
+2020-06-06 08:23:21.284  WARN 1928 --- [main] c.z.s.HSService1                         : 这是warn
+2020-06-06 08:23:21.284 ERROR 1928 --- [main] c.z.s.HSService1                         : 这是error
+2020-06-06 08:23:21.289  INFO 1928 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Sat Jun 06 08:23:19 CST 2020]; root of context hierarchy
+2020-06-06 08:24:26.468  INFO 11952 --- [main] c.z.s.HSService1                         : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 11952 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:24:26.471 DEBUG 11952 --- [main] c.z.s.HSService1                         : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:24:26.471  INFO 11952 --- [main] c.z.s.HSService1                         : The following profiles are active: test1
+2020-06-06 08:24:26.499  INFO 11952 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Sat Jun 06 08:24:26 CST 2020]; root of context hierarchy
+2020-06-06 08:24:27.667  INFO 11952 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Sat Jun 06 08:24:26 CST 2020]; root of context hierarchy
+2020-06-06 08:24:27.718  INFO 11952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:24:27.721  INFO 11952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:24:27.721  INFO 11952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:24:27.747  INFO 11952 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:24:27.747  INFO 11952 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:24:27.771  INFO 11952 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:24:27.790  INFO 11952 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2020-06-06 08:24:27.888  INFO 11952 --- [main] c.z.s.HSService1                         : Started HSService1 in 1.681 seconds (JVM running for 2.365)
+2020-06-06 08:24:27.938  INFO 11952 --- [main] c.z.s.HSService1                         : Dog [name=null, age=null, friend=null, foods=null]
+2020-06-06 08:24:27.940 TRACE 11952 --- [main] c.z.s.HSService1                         : 这是trace
+2020-06-06 08:24:27.940  INFO 11952 --- [main] c.z.s.HSService1                         : 这是info
+2020-06-06 08:24:27.940 DEBUG 11952 --- [main] c.z.s.HSService1                         : 这是debug
+2020-06-06 08:24:27.940  WARN 11952 --- [main] c.z.s.HSService1                         : 这是warn
+2020-06-06 08:24:27.940 ERROR 11952 --- [main] c.z.s.HSService1                         : 这是error
+2020-06-06 08:24:27.947  INFO 11952 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Sat Jun 06 08:24:26 CST 2020]; root of context hierarchy
+2020-06-06 08:26:21.496  INFO 1616 --- [main] c.z.s.HSService1                         : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 1616 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:26:21.498 DEBUG 1616 --- [main] c.z.s.HSService1                         : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:26:21.499  INFO 1616 --- [main] c.z.s.HSService1                         : The following profiles are active: test1
+2020-06-06 08:26:21.527  INFO 1616 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Sat Jun 06 08:26:21 CST 2020]; root of context hierarchy
+2020-06-06 08:26:22.688  INFO 1616 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Sat Jun 06 08:26:21 CST 2020]; root of context hierarchy
+2020-06-06 08:26:22.749  INFO 1616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:26:22.752  INFO 1616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:26:22.753  INFO 1616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:26:22.775  INFO 1616 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:26:22.775  INFO 1616 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:26:22.799  INFO 1616 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:26:22.825  INFO 1616 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2020-06-06 08:26:22.937  INFO 1616 --- [main] c.z.s.HSService1                         : Started HSService1 in 1.701 seconds (JVM running for 2.379)
+2020-06-06 08:26:22.984  INFO 1616 --- [main] c.z.s.HSService1                         : Dog [name=å¼ è¾, age=null, friend=null, foods=null]
+2020-06-06 08:26:22.985 TRACE 1616 --- [main] c.z.s.HSService1                         : 这是trace
+2020-06-06 08:26:22.985  INFO 1616 --- [main] c.z.s.HSService1                         : 这是info
+2020-06-06 08:26:22.986 DEBUG 1616 --- [main] c.z.s.HSService1                         : 这是debug
+2020-06-06 08:26:22.986  WARN 1616 --- [main] c.z.s.HSService1                         : 这是warn
+2020-06-06 08:26:22.986 ERROR 1616 --- [main] c.z.s.HSService1                         : 这是error
+2020-06-06 08:26:22.991  INFO 1616 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@48c76607: startup date [Sat Jun 06 08:26:21 CST 2020]; root of context hierarchy
+2020-06-06 08:29:59.804  INFO 9432 --- [main] c.z.s.HSService1                         : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 9432 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:29:59.817 DEBUG 9432 --- [main] c.z.s.HSService1                         : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:29:59.817  INFO 9432 --- [main] c.z.s.HSService1                         : The following profiles are active: test1
+2020-06-06 08:29:59.935  INFO 9432 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:29:59 CST 2020]; root of context hierarchy
+2020-06-06 08:30:01.826  INFO 9432 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:29:59 CST 2020]; root of context hierarchy
+2020-06-06 08:30:01.923  INFO 9432 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:30:01.925  INFO 9432 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:30:01.925  INFO 9432 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:30:01.966  INFO 9432 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:30:01.967  INFO 9432 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:30:02.015  INFO 9432 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:30:02.037  INFO 9432 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2020-06-06 08:30:02.190  INFO 9432 --- [main] c.z.s.HSService1                         : Started HSService1 in 3.203 seconds (JVM running for 5.114)
+2020-06-06 08:30:02.272  INFO 9432 --- [main] c.z.s.HSService1                         : 1
+2020-06-06 08:30:02.274  INFO 9432 --- [main] c.z.s.HSService1                         : Dog [name=å¼ è¾, age=null, friend=null, foods=null]
+2020-06-06 08:30:02.274 TRACE 9432 --- [main] c.z.s.HSService1                         : 这是trace
+2020-06-06 08:30:02.276  INFO 9432 --- [main] c.z.s.HSService1                         : 这是info
+2020-06-06 08:30:02.277 DEBUG 9432 --- [main] c.z.s.HSService1                         : 这是debug
+2020-06-06 08:30:02.277  WARN 9432 --- [main] c.z.s.HSService1                         : 这是warn
+2020-06-06 08:30:02.277 ERROR 9432 --- [main] c.z.s.HSService1                         : 这是error
+2020-06-06 08:30:02.287  INFO 9432 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:29:59 CST 2020]; root of context hierarchy
+2020-06-06 08:30:24.961  INFO 15020 --- [main] c.z.s.HSService1                         : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 15020 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:30:24.967 DEBUG 15020 --- [main] c.z.s.HSService1                         : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:30:24.968  INFO 15020 --- [main] c.z.s.HSService1                         : The following profiles are active: test1
+2020-06-06 08:30:25.036  INFO 15020 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:30:25 CST 2020]; root of context hierarchy
+2020-06-06 08:30:28.265  INFO 15020 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:30:25 CST 2020]; root of context hierarchy
+2020-06-06 08:30:28.425  INFO 15020 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:30:28.429  INFO 15020 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:30:28.432  INFO 15020 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:30:28.502  INFO 15020 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:30:28.502  INFO 15020 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:30:28.569  INFO 15020 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:30:28.613  INFO 15020 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2020-06-06 08:30:28.900  INFO 15020 --- [main] c.z.s.HSService1                         : Started HSService1 in 4.584 seconds (JVM running for 6.579)
+2020-06-06 08:30:29.055  INFO 15020 --- [main] c.z.s.HSService1                         : 0
+2020-06-06 08:30:29.061  INFO 15020 --- [main] c.z.s.HSService1                         : Dog [name=å¼ è¾, age=null, friend=null, foods=null]
+2020-06-06 08:30:29.062 TRACE 15020 --- [main] c.z.s.HSService1                         : 这是trace
+2020-06-06 08:30:29.064  INFO 15020 --- [main] c.z.s.HSService1                         : 这是info
+2020-06-06 08:30:29.065 DEBUG 15020 --- [main] c.z.s.HSService1                         : 这是debug
+2020-06-06 08:30:29.065  WARN 15020 --- [main] c.z.s.HSService1                         : 这是warn
+2020-06-06 08:30:29.066 ERROR 15020 --- [main] c.z.s.HSService1                         : 这是error
+2020-06-06 08:30:29.078  INFO 15020 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:30:25 CST 2020]; root of context hierarchy
+2020-06-06 08:33:08.814  INFO 2268 --- [main] c.z.s.HSService1                         : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 2268 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:33:08.819 DEBUG 2268 --- [main] c.z.s.HSService1                         : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:33:08.820  INFO 2268 --- [main] c.z.s.HSService1                         : The following profiles are active: test1
+2020-06-06 08:33:08.913  INFO 2268 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:33:08 CST 2020]; root of context hierarchy
+2020-06-06 08:33:11.141  INFO 2268 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:33:08 CST 2020]; root of context hierarchy
+2020-06-06 08:33:11.228  INFO 2268 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:33:11.232  INFO 2268 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:33:11.233  INFO 2268 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:33:11.269  INFO 2268 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:33:11.270  INFO 2268 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:33:11.335  INFO 2268 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:33:11.364  INFO 2268 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2020-06-06 08:33:11.502  INFO 2268 --- [main] c.z.s.HSService1                         : Started HSService1 in 3.256 seconds (JVM running for 4.141)
+2020-06-06 08:33:11.572  INFO 2268 --- [main] c.z.s.HSService1                         : 1
+2020-06-06 08:33:11.577  INFO 2268 --- [main] c.z.s.HSService1                         : Dog [name=å¼ è¾, age=null, friend=null, foods=null]
+2020-06-06 08:33:11.577 TRACE 2268 --- [main] c.z.s.HSService1                         : 这是trace
+2020-06-06 08:33:11.579  INFO 2268 --- [main] c.z.s.HSService1                         : 这是info
+2020-06-06 08:33:11.579 DEBUG 2268 --- [main] c.z.s.HSService1                         : 这是debug
+2020-06-06 08:33:11.581  WARN 2268 --- [main] c.z.s.HSService1                         : 这是warn
+2020-06-06 08:33:11.581 ERROR 2268 --- [main] c.z.s.HSService1                         : 这是error
+2020-06-06 08:33:11.610  INFO 2268 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:33:08 CST 2020]; root of context hierarchy
+2020-06-06 08:33:53.681  INFO 16124 --- [main] c.z.s.HSService1                         : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 16124 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:33:53.690 DEBUG 16124 --- [main] c.z.s.HSService1                         : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:33:53.691  INFO 16124 --- [main] c.z.s.HSService1                         : The following profiles are active: test1
+2020-06-06 08:33:53.784  INFO 16124 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:33:53 CST 2020]; root of context hierarchy
+2020-06-06 08:33:57.301  INFO 16124 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:33:53 CST 2020]; root of context hierarchy
+2020-06-06 08:33:57.454  INFO 16124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:33:57.462  INFO 16124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:33:57.464  INFO 16124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:33:57.528  INFO 16124 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:33:57.528  INFO 16124 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:33:57.592  INFO 16124 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:33:57.662  INFO 16124 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2020-06-06 08:33:57.922  INFO 16124 --- [main] c.z.s.HSService1                         : Started HSService1 in 4.934 seconds (JVM running for 6.361)
+2020-06-06 08:33:58.066  INFO 16124 --- [main] c.z.s.HSService1                         : 0
+2020-06-06 08:33:58.071  INFO 16124 --- [main] c.z.s.HSService1                         : Dog [name=å¼ è¾, age=null, friend=null, foods=null]
+2020-06-06 08:33:58.072 TRACE 16124 --- [main] c.z.s.HSService1                         : 这是trace
+2020-06-06 08:33:58.074  INFO 16124 --- [main] c.z.s.HSService1                         : 这是info
+2020-06-06 08:33:58.074 DEBUG 16124 --- [main] c.z.s.HSService1                         : 这是debug
+2020-06-06 08:33:58.075  WARN 16124 --- [main] c.z.s.HSService1                         : 这是warn
+2020-06-06 08:33:58.075 ERROR 16124 --- [main] c.z.s.HSService1                         : 这是error
+2020-06-06 08:33:58.086  INFO 16124 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:33:53 CST 2020]; root of context hierarchy
+2020-06-06 08:34:58.347  INFO 14272 --- [main] c.z.s.HSService1                         : Starting HSService1 on LAPTOP-TQGJD6B6 with PID 14272 (started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 08:34:58.354 DEBUG 14272 --- [main] c.z.s.HSService1                         : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 08:34:58.354  INFO 14272 --- [main] c.z.s.HSService1                         : The following profiles are active: test1
+2020-06-06 08:34:58.435  INFO 14272 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:34:58 CST 2020]; root of context hierarchy
+2020-06-06 08:35:00.647  INFO 14272 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:34:58 CST 2020]; root of context hierarchy
+2020-06-06 08:35:00.703  INFO 14272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 08:35:00.706  INFO 14272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 08:35:00.706  INFO 14272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 08:35:00.732  INFO 14272 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:35:00.732  INFO 14272 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:35:00.758  INFO 14272 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 08:35:00.781  INFO 14272 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2020-06-06 08:35:00.891  INFO 14272 --- [main] c.z.s.HSService1                         : Started HSService1 in 2.863 seconds (JVM running for 3.547)
+2020-06-06 08:35:00.932  INFO 14272 --- [main] c.z.s.HSService1                         : 0
+2020-06-06 08:35:00.933  INFO 14272 --- [main] c.z.s.HSService1                         : Dog [name=å¼ è¾_741b94bc-be3f-4ae5-9309-5e0aa02f1f16, age=null, friend=null, foods=null]
+2020-06-06 08:35:00.933 TRACE 14272 --- [main] c.z.s.HSService1                         : 这是trace
+2020-06-06 08:35:00.934  INFO 14272 --- [main] c.z.s.HSService1                         : 这是info
+2020-06-06 08:35:00.934 DEBUG 14272 --- [main] c.z.s.HSService1                         : 这是debug
+2020-06-06 08:35:00.934  WARN 14272 --- [main] c.z.s.HSService1                         : 这是warn
+2020-06-06 08:35:00.934 ERROR 14272 --- [main] c.z.s.HSService1                         : 这是error
+2020-06-06 08:35:00.953  INFO 14272 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1f81aa00: startup date [Sat Jun 06 08:34:58 CST 2020]; root of context hierarchy
+2020-06-06 09:19:30.015  INFO 14796 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 14796 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 09:19:30.019 DEBUG 14796 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 09:19:30.020  INFO 14796 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 09:19:30.059  INFO 14796 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 09:19:30 CST 2020]; root of context hierarchy
+2020-06-06 09:19:31.578  INFO 14796 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 09:19:31.585  INFO 14796 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 09:19:31.586  INFO 14796 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 09:19:31.689  INFO 14796 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 09:19:31.689  INFO 14796 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1632 ms
+2020-06-06 09:19:31.836  INFO 14796 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 09:19:31.838  INFO 14796 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 09:19:31.838  INFO 14796 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 09:19:31.839  INFO 14796 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 09:19:31.839  INFO 14796 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 09:19:32.088  INFO 14796 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 09:19:30 CST 2020]; root of context hierarchy
+2020-06-06 09:19:32.138  INFO 14796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 09:19:32.142  INFO 14796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 09:19:32.142  INFO 14796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 09:19:32.159  INFO 14796 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:19:32.159  INFO 14796 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:19:32.180  INFO 14796 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:19:32.197  INFO 14796 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 09:19:32.285  INFO 14796 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 09:19:32.372  INFO 14796 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 09:19:32.377  INFO 14796 --- [main] c.z.HSApplication                        : Started HSApplication in 2.783 seconds (JVM running for 3.568)
+2020-06-06 09:19:49.798  INFO 14796 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 09:19:49.798  INFO 14796 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 09:19:49.859  INFO 14796 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 59 ms
+2020-06-06 09:23:10.160  INFO 16580 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 16580 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 09:23:10.164 DEBUG 16580 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 09:23:10.164  INFO 16580 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 09:23:10.196  INFO 16580 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 09:23:10 CST 2020]; root of context hierarchy
+2020-06-06 09:23:11.557  INFO 16580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 09:23:11.564  INFO 16580 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 09:23:11.565  INFO 16580 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 09:23:11.677  INFO 16580 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 09:23:11.677  INFO 16580 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1484 ms
+2020-06-06 09:23:11.836  INFO 16580 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 09:23:11.840  INFO 16580 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 09:23:11.841  INFO 16580 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 09:23:11.841  INFO 16580 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 09:23:11.841  INFO 16580 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 09:23:12.107  INFO 16580 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Sat Jun 06 09:23:10 CST 2020]; root of context hierarchy
+2020-06-06 09:23:12.162  INFO 16580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 09:23:12.165  INFO 16580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 09:23:12.167  INFO 16580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 09:23:12.188  INFO 16580 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:23:12.189  INFO 16580 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:23:12.210  INFO 16580 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:23:12.227  INFO 16580 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 09:23:12.309  INFO 16580 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 09:23:12.357  INFO 16580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 09:23:12.362  INFO 16580 --- [main] c.z.HSApplication                        : Started HSApplication in 2.505 seconds (JVM running for 3.135)
+2020-06-06 09:23:17.768  INFO 16580 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 09:23:17.768  INFO 16580 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 09:23:17.801  INFO 16580 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2020-06-06 09:43:29.526  INFO 9400 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 9400 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 09:43:29.529 DEBUG 9400 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 09:43:29.530  INFO 9400 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 09:43:29.882  INFO 9400 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:43:29 CST 2020]; root of context hierarchy
+2020-06-06 09:43:31.457  INFO 9400 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 09:43:31.465  INFO 9400 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 09:43:31.466  INFO 9400 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 09:43:31.590  INFO 9400 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 09:43:31.591  INFO 9400 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1714 ms
+2020-06-06 09:43:31.741  INFO 9400 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 09:43:31.743  INFO 9400 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 09:43:31.744  INFO 9400 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 09:43:31.744  INFO 9400 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 09:43:31.744  INFO 9400 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 09:43:31.990  INFO 9400 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:43:29 CST 2020]; root of context hierarchy
+2020-06-06 09:43:32.039  INFO 9400 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 09:43:32.042  INFO 9400 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 09:43:32.043  INFO 9400 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 09:43:32.070  INFO 9400 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:43:32.070  INFO 9400 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:43:32.097  INFO 9400 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:43:32.127  WARN 9400 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-06-06 09:43:32.454  INFO 9400 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 09:43:32.578  INFO 9400 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 09:43:32.608 ERROR 9400 --- [main] o.a.c.h.Http11NioProtocol                : Failed to start end point associated with ProtocolHandler ["http-nio-8083"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.zt.HSApplication.main(HSApplication.java:14) [classes/:?]
+
+2020-06-06 09:43:32.613 ERROR 9400 --- [main] o.a.c.c.StandardService                  : Failed to start connector [Connector[HTTP/1.1-8083]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8083]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.zt.HSApplication.main(HSApplication.java:14) [classes/:?]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 13 more
+
+2020-06-06 09:43:32.621  INFO 9400 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-06-06 09:43:32.638  INFO 9400 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2020-06-06 09:43:32.646 ERROR 9400 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8083 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8083, or configure this application to listen on another port.
+
+2020-06-06 09:43:32.647  INFO 9400 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:43:29 CST 2020]; root of context hierarchy
+2020-06-06 09:43:32.648  INFO 9400 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-06-06 09:43:43.129  INFO 9512 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 9512 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 09:43:43.133 DEBUG 9512 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 09:43:43.133  INFO 9512 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 09:43:43.586  INFO 9512 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:43:43 CST 2020]; root of context hierarchy
+2020-06-06 09:43:45.412  INFO 9512 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 09:43:45.420  INFO 9512 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 09:43:45.422  INFO 9512 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 09:43:45.538  INFO 9512 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 09:43:45.538  INFO 9512 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1959 ms
+2020-06-06 09:43:45.715  INFO 9512 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 09:43:45.718  INFO 9512 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 09:43:45.718  INFO 9512 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 09:43:45.718  INFO 9512 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 09:43:45.718  INFO 9512 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 09:43:45.958  INFO 9512 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:43:43 CST 2020]; root of context hierarchy
+2020-06-06 09:43:46.008  INFO 9512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 09:43:46.011  INFO 9512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 09:43:46.011  INFO 9512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 09:43:46.033  INFO 9512 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:43:46.033  INFO 9512 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:43:46.059  INFO 9512 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:43:46.103  WARN 9512 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-06-06 09:43:46.361  INFO 9512 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 09:43:46.452  INFO 9512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 09:43:46.503  INFO 9512 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 09:43:46.507  INFO 9512 --- [main] c.z.HSApplication                        : Started HSApplication in 3.733 seconds (JVM running for 4.303)
+2020-06-06 09:54:16.609  INFO 13352 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 13352 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 09:54:16.612 DEBUG 13352 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 09:54:16.613  INFO 13352 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 09:54:16.841  INFO 13352 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:54:16 CST 2020]; root of context hierarchy
+2020-06-06 09:54:18.359  INFO 13352 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 09:54:18.374  INFO 13352 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 09:54:18.377  INFO 13352 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 09:54:18.736  INFO 13352 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 09:54:18.737  INFO 13352 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1899 ms
+2020-06-06 09:54:19.070  INFO 13352 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 09:54:19.075  INFO 13352 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 09:54:19.076  INFO 13352 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 09:54:19.076  INFO 13352 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 09:54:19.076  INFO 13352 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 09:54:19.541  INFO 13352 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:54:16 CST 2020]; root of context hierarchy
+2020-06-06 09:54:19.593  INFO 13352 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main()
+2020-06-06 09:54:19.594  INFO 13352 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 09:54:19.597  INFO 13352 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 09:54:19.597  INFO 13352 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 09:54:19.622  INFO 13352 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:54:19.623  INFO 13352 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:54:19.652  INFO 13352 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:54:19.700  WARN 13352 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 09:54:20.047  INFO 13352 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 09:54:20.139  INFO 13352 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 09:54:20.168 ERROR 13352 --- [main] o.a.c.h.Http11NioProtocol                : Failed to start end point associated with ProtocolHandler ["http-nio-8083"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.zt.HSApplication.main(HSApplication.java:14) [classes/:?]
+
+2020-06-06 09:54:20.174 ERROR 13352 --- [main] o.a.c.c.StandardService                  : Failed to start connector [Connector[HTTP/1.1-8083]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8083]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.zt.HSApplication.main(HSApplication.java:14) [classes/:?]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 13 more
+
+2020-06-06 09:54:20.180  INFO 13352 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-06-06 09:54:20.191  INFO 13352 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2020-06-06 09:54:20.194 ERROR 13352 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8083 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8083, or configure this application to listen on another port.
+
+2020-06-06 09:54:20.196  INFO 13352 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:54:16 CST 2020]; root of context hierarchy
+2020-06-06 09:54:20.197  INFO 13352 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-06-06 09:54:25.985  INFO 2964 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 2964 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 09:54:25.988 DEBUG 2964 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 09:54:25.989  INFO 2964 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 09:54:26.334  INFO 2964 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:54:26 CST 2020]; root of context hierarchy
+2020-06-06 09:54:28.197  INFO 2964 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 09:54:28.207  INFO 2964 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 09:54:28.209  INFO 2964 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 09:54:28.555  INFO 2964 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 09:54:28.556  INFO 2964 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2225 ms
+2020-06-06 09:54:29.042  INFO 2964 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 09:54:29.049  INFO 2964 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 09:54:29.050  INFO 2964 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 09:54:29.050  INFO 2964 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 09:54:29.050  INFO 2964 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 09:54:29.720  INFO 2964 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:54:26 CST 2020]; root of context hierarchy
+2020-06-06 09:54:29.874  INFO 2964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main()
+2020-06-06 09:54:29.878  INFO 2964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 09:54:29.884  INFO 2964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 09:54:29.885  INFO 2964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 09:54:29.961  INFO 2964 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:54:29.963  INFO 2964 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:54:30.037  INFO 2964 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:54:30.109  WARN 2964 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 09:54:30.349  INFO 2964 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 09:54:30.476  INFO 2964 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 09:54:30.588  INFO 2964 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 09:54:30.592  INFO 2964 --- [main] c.z.HSApplication                        : Started HSApplication in 4.968 seconds (JVM running for 5.517)
+2020-06-06 09:54:44.473  INFO 2964 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 09:54:44.474  INFO 2964 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 09:54:44.537  INFO 2964 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 63 ms
+2020-06-06 09:55:14.895  INFO 12556 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 12556 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 09:55:14.900 DEBUG 12556 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 09:55:14.901  INFO 12556 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 09:55:15.223  INFO 12556 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:55:15 CST 2020]; root of context hierarchy
+2020-06-06 09:55:16.702  INFO 12556 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 09:55:16.710  INFO 12556 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 09:55:16.712  INFO 12556 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 09:55:16.831  INFO 12556 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 09:55:16.832  INFO 12556 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1614 ms
+2020-06-06 09:55:16.985  INFO 12556 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 09:55:16.987  INFO 12556 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 09:55:16.988  INFO 12556 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 09:55:16.988  INFO 12556 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 09:55:16.988  INFO 12556 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 09:55:17.262  INFO 12556 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 09:55:15 CST 2020]; root of context hierarchy
+2020-06-06 09:55:17.314  INFO 12556 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main()
+2020-06-06 09:55:17.315  INFO 12556 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 09:55:17.317  INFO 12556 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 09:55:17.318  INFO 12556 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 09:55:17.335  INFO 12556 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:55:17.336  INFO 12556 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:55:17.361  INFO 12556 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 09:55:17.413  WARN 12556 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 09:55:17.826  INFO 12556 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 09:55:17.951  INFO 12556 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 09:55:18.021  INFO 12556 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 09:55:18.026  INFO 12556 --- [main] c.z.HSApplication                        : Started HSApplication in 3.538 seconds (JVM running for 4.39)
+2020-06-06 09:55:18.217  INFO 12556 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 09:55:18.218  INFO 12556 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 09:55:18.271  INFO 12556 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 53 ms
+2020-06-06 10:02:03.087  INFO 7596 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 7596 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 10:02:03.090 DEBUG 7596 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 10:02:03.091  INFO 7596 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 10:02:03.311  INFO 7596 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 10:02:03 CST 2020]; root of context hierarchy
+2020-06-06 10:02:05.288  INFO 7596 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 10:02:05.295  INFO 7596 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 10:02:05.296  INFO 7596 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 10:02:05.417  INFO 7596 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 10:02:05.417  INFO 7596 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2109 ms
+2020-06-06 10:02:05.563  INFO 7596 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 10:02:05.565  INFO 7596 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 10:02:05.565  INFO 7596 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 10:02:05.565  INFO 7596 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 10:02:05.566  INFO 7596 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 10:02:05.808  INFO 7596 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 10:02:03 CST 2020]; root of context hierarchy
+2020-06-06 10:02:05.858  INFO 7596 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main()
+2020-06-06 10:02:05.858  INFO 7596 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 10:02:05.861  INFO 7596 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 10:02:05.862  INFO 7596 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 10:02:05.885  INFO 7596 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 10:02:05.885  INFO 7596 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 10:02:05.916  INFO 7596 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 10:02:05.950  WARN 7596 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 10:02:06.265  INFO 7596 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 10:02:06.364  INFO 7596 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 10:02:06.411  INFO 7596 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 10:02:06.414  INFO 7596 --- [main] c.z.HSApplication                        : Started HSApplication in 3.618 seconds (JVM running for 4.149)
+2020-06-06 10:02:12.212  INFO 7596 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 10:02:12.212  INFO 7596 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 10:02:12.244  INFO 7596 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2020-06-06 10:02:55.678  INFO 7288 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 7288 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 10:02:55.683 DEBUG 7288 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 10:02:55.683  INFO 7288 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 10:02:55.878  INFO 7288 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 10:02:55 CST 2020]; root of context hierarchy
+2020-06-06 10:02:57.620  INFO 7288 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 10:02:57.629  INFO 7288 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 10:02:57.630  INFO 7288 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 10:02:57.748  INFO 7288 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 10:02:57.748  INFO 7288 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1873 ms
+2020-06-06 10:02:57.909  INFO 7288 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 10:02:57.912  INFO 7288 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 10:02:57.913  INFO 7288 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 10:02:57.913  INFO 7288 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 10:02:57.913  INFO 7288 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 10:02:58.201  INFO 7288 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 10:02:55 CST 2020]; root of context hierarchy
+2020-06-06 10:02:58.301  INFO 7288 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 10:02:58.303  INFO 7288 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 10:02:58.307  INFO 7288 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 10:02:58.309  INFO 7288 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 10:02:58.384  INFO 7288 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 10:02:58.385  INFO 7288 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 10:02:58.467  INFO 7288 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 10:02:58.619  WARN 7288 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 10:02:59.228  INFO 7288 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 10:02:59.465  INFO 7288 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 10:02:59.531  INFO 7288 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 10:02:59.542  INFO 7288 --- [main] c.z.HSApplication                        : Started HSApplication in 4.372 seconds (JVM running for 4.943)
+2020-06-06 10:03:02.564  INFO 7288 --- [http-nio-8083-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 10:03:02.565  INFO 7288 --- [http-nio-8083-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 10:03:02.594  INFO 7288 --- [http-nio-8083-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2020-06-06 10:57:32.271  INFO 16376 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 16376 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 10:57:32.341 DEBUG 16376 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 10:57:32.342  INFO 16376 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 10:57:33.114  INFO 16376 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59a2bed1: startup date [Sat Jun 06 10:57:33 CST 2020]; root of context hierarchy
+2020-06-06 10:57:37.212  INFO 16376 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 10:57:37.235  INFO 16376 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 10:57:37.237  INFO 16376 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 10:57:37.506  INFO 16376 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 10:57:37.506  INFO 16376 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4398 ms
+2020-06-06 10:57:37.799  INFO 16376 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 10:57:37.811  INFO 16376 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 10:57:37.812  INFO 16376 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-06 10:57:37.813  INFO 16376 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-06 10:57:37.814  INFO 16376 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-06 10:57:38.654  INFO 16376 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59a2bed1: startup date [Sat Jun 06 10:57:33 CST 2020]; root of context hierarchy
+2020-06-06 10:57:39.017  INFO 16376 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 10:57:39.020  INFO 16376 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 10:57:39.029  INFO 16376 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 10:57:39.030  INFO 16376 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 10:57:39.098  INFO 16376 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 10:57:39.099  INFO 16376 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 10:57:39.215  INFO 16376 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-06 10:57:39.719  WARN 16376 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 10:57:40.644  INFO 16376 --- [main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [resources/index.html]
+2020-06-06 10:57:40.807  INFO 16376 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 10:57:40.885 ERROR 16376 --- [main] o.a.c.h.Http11NioProtocol                : Failed to start end point associated with ProtocolHandler ["http-nio-8083"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.zt.HSApplication.main(HSApplication.java:14) [classes/:?]
+
+2020-06-06 10:57:40.925 ERROR 16376 --- [main] o.a.c.c.StandardService                  : Failed to start connector [Connector[HTTP/1.1-8083]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8083]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.zt.HSApplication.main(HSApplication.java:14) [classes/:?]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 13 more
+
+2020-06-06 10:57:40.949  INFO 16376 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2020-06-06 10:57:40.984  INFO 16376 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2020-06-06 10:57:40.993 ERROR 16376 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8083 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8083, or configure this application to listen on another port.
+
+2020-06-06 10:57:41.021  INFO 16376 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59a2bed1: startup date [Sat Jun 06 10:57:33 CST 2020]; root of context hierarchy
+2020-06-06 10:57:41.022  INFO 16376 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-06-06 11:00:24.860  INFO 10048 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 10048 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 11:00:24.863 DEBUG 10048 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 11:00:24.863  INFO 10048 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 11:00:25.148  INFO 10048 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 11:00:25 CST 2020]; root of context hierarchy
+2020-06-06 11:00:26.779  INFO 10048 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 11:00:26.788  INFO 10048 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 11:00:26.789  INFO 10048 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 11:00:26.944  INFO 10048 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 11:00:26.944  INFO 10048 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1799 ms
+2020-06-06 11:00:27.095  INFO 10048 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 11:00:27.100  INFO 10048 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 11:00:27.285  INFO 10048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 11:00:27.286  INFO 10048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 11:00:27.296  INFO 10048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 11:00:27.298  INFO 10048 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 11:00:27.371  INFO 10048 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 11:00:25 CST 2020]; root of context hierarchy
+2020-06-06 11:00:27.825  WARN 10048 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 11:00:28.018  INFO 10048 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 11:00:28.075  INFO 10048 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 11:00:28.079  INFO 10048 --- [main] c.z.HSApplication                        : Started HSApplication in 3.691 seconds (JVM running for 4.415)
+2020-06-06 11:00:47.538  INFO 10048 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 11:00:47.538  INFO 10048 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 11:00:47.564  INFO 10048 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2020-06-06 11:00:54.122  WARN 10048 --- [http-nio-8083-exec-2] o.s.w.s.PageNotFound                     : No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcherServlet'
+2020-06-06 11:02:43.712  WARN 10048 --- [http-nio-8083-exec-7] o.s.w.s.PageNotFound                     : No mapping found for HTTP request with URI [/index.html] in DispatcherServlet with name 'dispatcherServlet'
+2020-06-06 11:03:00.547  WARN 10048 --- [http-nio-8083-exec-9] o.s.w.s.PageNotFound                     : No mapping found for HTTP request with URI [/resources/index.html] in DispatcherServlet with name 'dispatcherServlet'
+2020-06-06 20:35:49.948  INFO 12184 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 12184 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 20:35:49.959 DEBUG 12184 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 20:35:49.960  INFO 12184 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 20:35:50.210  INFO 12184 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 20:35:50 CST 2020]; root of context hierarchy
+2020-06-06 20:35:52.337  INFO 12184 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 20:35:52.346  INFO 12184 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 20:35:52.347  INFO 12184 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 20:35:52.535  INFO 12184 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 20:35:52.535  INFO 12184 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2328 ms
+2020-06-06 20:35:52.700  INFO 12184 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 20:35:52.703  INFO 12184 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 20:35:52.874  INFO 12184 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 20:35:52.875  INFO 12184 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 20:35:52.881  INFO 12184 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 20:35:52.881  INFO 12184 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 20:35:52.942  INFO 12184 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67f639d3: startup date [Sat Jun 06 20:35:50 CST 2020]; root of context hierarchy
+2020-06-06 20:35:54.085  WARN 12184 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 20:35:54.444  INFO 12184 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 20:35:54.560  INFO 12184 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 20:35:54.568  INFO 12184 --- [main] c.z.HSApplication                        : Started HSApplication in 5.081 seconds (JVM running for 6.234)
+2020-06-06 20:36:11.513  INFO 12184 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 20:36:11.514  INFO 12184 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 20:36:11.574  INFO 12184 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+2020-06-06 20:36:11.614  WARN 12184 --- [http-nio-8083-exec-1] o.s.w.s.PageNotFound                     : No mapping found for HTTP request with URI [/zhang/hello] in DispatcherServlet with name 'dispatcherServlet'
+2020-06-06 20:37:59.912  INFO 15724 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 15724 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 20:37:59.919 DEBUG 15724 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 20:37:59.919  INFO 15724 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 20:38:00.118  INFO 15724 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 20:38:00 CST 2020]; root of context hierarchy
+2020-06-06 20:38:01.653  INFO 15724 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 20:38:01.661  INFO 15724 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 20:38:01.662  INFO 15724 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 20:38:01.815  INFO 15724 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 20:38:01.816  INFO 15724 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1701 ms
+2020-06-06 20:38:01.943  INFO 15724 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 20:38:01.945  INFO 15724 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 20:38:02.081  INFO 15724 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 20:38:02.082  INFO 15724 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 20:38:02.088  INFO 15724 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 20:38:02.088  INFO 15724 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 20:38:02.143  INFO 15724 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 20:38:00 CST 2020]; root of context hierarchy
+2020-06-06 20:38:02.558  WARN 15724 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 20:38:02.637  INFO 15724 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 20:38:02.774  INFO 15724 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 20:38:02.778  INFO 15724 --- [main] c.z.HSApplication                        : Started HSApplication in 3.303 seconds (JVM running for 4.283)
+2020-06-06 20:38:06.469  INFO 15724 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 20:38:06.469  INFO 15724 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 20:38:06.494  INFO 15724 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2020-06-06 20:39:11.879  INFO 10296 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 10296 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 20:39:11.882 DEBUG 10296 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 20:39:11.882  INFO 10296 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 20:39:12.145  INFO 10296 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 20:39:12 CST 2020]; root of context hierarchy
+2020-06-06 20:39:14.590  INFO 10296 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 20:39:14.610  INFO 10296 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 20:39:14.611  INFO 10296 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 20:39:14.957  INFO 10296 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 20:39:14.958  INFO 10296 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2815 ms
+2020-06-06 20:39:15.202  INFO 10296 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-06 20:39:15.206  INFO 10296 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 20:39:15.411  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 20:39:15.414  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 20:39:15.424  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 20:39:15.426  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 20:39:15.507  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 20:39:12 CST 2020]; root of context hierarchy
+2020-06-06 20:39:16.647  WARN 10296 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 20:39:17.301  INFO 10296 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 20:39:17.443  INFO 10296 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 20:39:17.465  INFO 10296 --- [main] c.z.HSApplication                        : Started HSApplication in 6.012 seconds (JVM running for 6.795)
+2020-06-06 20:39:18.936  INFO 10296 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 20:39:18.937  INFO 10296 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 20:39:19.027  INFO 10296 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 90 ms
+2020-06-06 20:39:38.195  INFO 15052 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 15052 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 20:39:38.205 DEBUG 15052 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 20:39:38.206  INFO 15052 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 20:39:38.666  INFO 15052 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 20:39:38 CST 2020]; root of context hierarchy
+2020-06-06 20:39:42.171  INFO 15052 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 20:39:42.201  INFO 15052 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 20:39:42.203  INFO 15052 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 20:39:42.546  INFO 15052 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 20:39:42.547  INFO 15052 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3897 ms
+2020-06-06 20:39:42.898  INFO 15052 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/*]
+2020-06-06 20:39:42.904  INFO 15052 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 20:39:43.246  INFO 15052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 20:39:43.247  INFO 15052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 20:39:43.257  INFO 15052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 20:39:43.257  INFO 15052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 20:39:43.358  INFO 15052 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 20:39:38 CST 2020]; root of context hierarchy
+2020-06-06 20:39:44.358  WARN 15052 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 20:39:44.733  INFO 15052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 20:39:44.873  INFO 15052 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 20:39:44.881  INFO 15052 --- [main] c.z.HSApplication                        : Started HSApplication in 7.31 seconds (JVM running for 8.078)
+2020-06-06 20:39:48.040  INFO 15052 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-06 20:39:48.041  INFO 15052 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-06 20:39:48.101  INFO 15052 --- [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+2020-06-06 21:49:06.484  WARN 15052 --- [http-nio-8083-exec-7] o.s.w.s.PageNotFound                     : No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcherServlet'
+2020-06-06 22:25:00.135  INFO 15000 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 15000 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 22:25:00.141 DEBUG 15000 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 22:25:00.141  INFO 15000 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 22:25:00.472  INFO 15000 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 22:25:00 CST 2020]; root of context hierarchy
+2020-06-06 22:25:03.470  INFO 15000 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-06-06 22:25:03.492  INFO 15000 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 22:25:03.494  INFO 15000 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 22:25:03.920  INFO 15000 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 22:25:03.920  INFO 15000 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3452 ms
+2020-06-06 22:25:04.108  INFO 15000 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/*]
+2020-06-06 22:25:04.114  INFO 15000 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 22:25:04.247  INFO 15000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 22:25:04.247  INFO 15000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 22:25:04.253  INFO 15000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 22:25:04.254  INFO 15000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 22:25:04.316  INFO 15000 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 22:25:00 CST 2020]; root of context hierarchy
+2020-06-06 22:25:04.856  WARN 15000 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 22:25:05.049  INFO 15000 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 22:25:05.371  INFO 15000 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-06-06 22:25:05.371  INFO 15000 --- [main] c.z.HSApplication                        : Started HSApplication in 5.691 seconds (JVM running for 6.637)
+2020-06-06 22:26:00.217  INFO 3392 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 3392 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 22:26:00.221 DEBUG 3392 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 22:26:00.221  INFO 3392 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 22:26:00.394  INFO 3392 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 22:26:00 CST 2020]; root of context hierarchy
+2020-06-06 22:26:01.864  INFO 3392 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 22:26:01.872  INFO 3392 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 22:26:01.872  INFO 3392 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 22:26:02.002  INFO 3392 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 22:26:02.002  INFO 3392 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1612 ms
+2020-06-06 22:26:02.120  INFO 3392 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/*]
+2020-06-06 22:26:02.123  INFO 3392 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 22:26:02.243  INFO 3392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 22:26:02.244  INFO 3392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 22:26:02.249  INFO 3392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 22:26:02.249  INFO 3392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 22:26:02.293  INFO 3392 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27462a88: startup date [Sat Jun 06 22:26:00 CST 2020]; root of context hierarchy
+2020-06-06 22:26:02.663  WARN 3392 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 22:26:02.739  INFO 3392 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 22:26:02.868  INFO 3392 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 22:26:02.871  INFO 3392 --- [main] c.z.HSApplication                        : Started HSApplication in 3.015 seconds (JVM running for 3.775)
+2020-06-06 22:27:01.705  INFO 14900 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 14900 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 22:27:01.708 DEBUG 14900 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 22:27:01.709  INFO 14900 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 22:27:01.959  INFO 14900 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47e2e487: startup date [Sat Jun 06 22:27:01 CST 2020]; root of context hierarchy
+2020-06-06 22:27:39.987  INFO 16104 --- [main] c.z.HSApplication                        : Starting HSApplication on LAPTOP-TQGJD6B6 with PID 16104 (D:\work\java\project\spring-boot-hs\target\classes started by zhangt in D:\work\java\project\spring-boot-hs)
+2020-06-06 22:27:39.990 DEBUG 16104 --- [main] c.z.HSApplication                        : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-06-06 22:27:39.990  INFO 16104 --- [main] c.z.HSApplication                        : The following profiles are active: test1
+2020-06-06 22:27:40.225  INFO 16104 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47e2e487: startup date [Sat Jun 06 22:27:40 CST 2020]; root of context hierarchy
+2020-06-06 22:27:41.683  INFO 16104 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2020-06-06 22:27:41.693  INFO 16104 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-06-06 22:27:41.694  INFO 16104 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-06 22:27:41.818  INFO 16104 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-06-06 22:27:41.818  INFO 16104 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1596 ms
+2020-06-06 22:27:41.954  INFO 16104 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/*]
+2020-06-06 22:27:41.956  INFO 16104 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-06 22:27:42.077  INFO 16104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dog]}" onto java.lang.String com.zt.controller.HSWeb.main(java.util.Map<java.lang.String, java.lang.Object>)
+2020-06-06 22:27:42.078  INFO 16104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto java.lang.String com.zt.controller.HSWeb.get()
+2020-06-06 22:27:42.083  INFO 16104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-06 22:27:42.083  INFO 16104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-06 22:27:42.129  INFO 16104 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47e2e487: startup date [Sat Jun 06 22:27:40 CST 2020]; root of context hierarchy
+2020-06-06 22:27:42.527  WARN 16104 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-06 22:27:42.697  INFO 16104 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-06-06 22:27:42.747  INFO 16104 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2020-06-06 22:27:42.750  INFO 16104 --- [main] c.z.HSApplication                        : Started HSApplication in 3.254 seconds (JVM running for 3.929)
